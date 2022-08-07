@@ -2,8 +2,9 @@
 
 ## Overview of Project
 
-[TODO: Explain the purpose of this analysis]
-Performing analysis on Kickstarter data to uncover trends.
+Louise is an upcoming playwright that wants to start a fundraising campaign to fund her play, "Fever". Her budget is estimated to be around $12K and she would like more information about what she can do to ensure her campaign will be successful.
+
+This analysis will attempt to sift through thousands of previous fundraising campaigns to determine what makes a successful campaign.  We will include charts and tables to show trends in the data to present the data in a comprehensible format.
 
 ---
 
@@ -20,6 +21,7 @@ Performing analysis on Kickstarter data to uncover trends.
 
 ### Analysis of Outcomes Based on Goals
 
+#### Performance Details
 This analysis was performed by setting up specific ranges of funding goals for the "plays" subcategory within the "theater" parent category.  To do this I first created a new worksheet showing the breaking down the goals in ranges of $5,000.  Anything goal less than $1,000 or greater than $50,000 were included as separate goals to include all goals at the upper and lower ranges.
 
 To get the total numbers within each range, I useed the COUNTIFS function as follows:
@@ -34,6 +36,7 @@ Here is an image of the table created which will be referenced below when descri
 
 Once this table was created, I used this smaller dataset to create a Pivot Table and Line Chart to only reflect the percentages for each outcome based on the goal ranges.
 
+#### Conclusions
 From the line chart below we can see the following information:
 
 - The most successful funding raising efforts were for plays that had a fundraising goal of less than $1000. This is understandable, since it is a very low amount and would need less backers to reach the goal.
