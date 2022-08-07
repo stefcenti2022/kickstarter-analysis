@@ -40,14 +40,11 @@ Once this table was created, I used this smaller dataset to create a Pivot Table
 From the line chart below we can see the following information:
 
 - The most successful funding raising efforts were for plays that had a fundraising goal of less than $1000. This is understandable, since it is a very low amount and would need less backers to reach the goal.
-
 - The least successful projects where in the range of 45,000 to 49,000. This also makes sense as the more money that is needed the harder it will be to find the backers to support it. 
-
 - However, plays with a goal of greater than $50,000 are shown to be more successful even though this could be a significantly higher goal to reach as it is unlimited.  If we go back to the original table that was used to create this chart we can see that there was only one play with a funding goal in the range of $45-$49K. Since that play failed the success rate would be 0, whereas, even though most plays with a goal over $50K had a lot more failures, it does have 2 that were successful which is enough to show a significant difference in the line chart.
-
 - Noticing this now, it seems that the pivot table may be more informative if it included the total number of projects. If I have some time at a later date, I can add this column so the previous table will not be needed in this document.
-
 - In the range of $35K to $44.9K there are quite a few successful projects yet in the ranges just below this level, i.e. $25K to $34.9K there was a high failure rate. There are no significant data in this part of the analyis to indicate why but the analysis by launch date may show something when I go back to anyalize that part.  [TODO: come back here and update once the analysis by Launch Date is evaluated.]
+- [TODO: Add info about 12K goal]
 
 ![Outcomes_vs_Goals.png](./resources/Outcomes_vs_Goals.png)
 
