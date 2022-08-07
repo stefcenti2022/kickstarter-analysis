@@ -13,7 +13,28 @@ This analysis will attempt to sift through thousands of previous fundraising cam
 ### Performance Analysis
 
 ### Analysis of Outcomes Based on Launch Date
-[TODO: Explain how this analysis was performed and include code or other images if they can help.]
+This analysis was performed by pulling data from Kickstarter sheet. Before creating the new Pivot table and Chart, I added a column to pull out the year that each fundraiser was launched. This allows us to filter on both the year of the launch and the fundraising category. Since Louise is only interested in plays, we can focus on just theater fundraisers to determine what time of year would be best to launch the fundraiser for "Fever".
+
+Each fundraiser is grouped by the month they were launched. In the graph below we can see that May and June are the most successful month to launch fundraisers!  Once June as passed, the likelihood of a fundraiser being successful drops significantly. Most likely this is due to people being busy with finishing up the school year and focusing on summer activities.  During the summer it is much more difficult to consistently reach out to people that are busy with a new routine.
+
+If we filter through specific years we can drill down a bit to find a few successful campaigns.  For example, in 2011 there were 2 in Dec. Since this is outside the range of May and June, let's investigate what may be different about these campaigns that may have made them more successful.
+- From the Kickstarter page, filter the columns "outcomes" by "successful", "Category" by "theater", and "Years" by 2011. This will show the fundraising data for 4 plays that year.  The 2 fundraisers in Dec. were for "Waxing: A New Play" and "A Thought in Three Parts".
+- Data for Waxing shows the following: The goal was relatively low at 1.5K and had 52 backers.  With that many backers the average donation was around $38. Since the goal was surpassed many donations could have been less and the goal would have still been achieved.
+- Data for A Thought in Paris shows the following: This goal was slighly higher at 7K but still low compared to 12K which Louise needs. This play was also able to round up 151 backers with an average donation of $47 each which is not too extravagant.  It could also be the case that 2011 was a good year for plays in Dec.
+- We would need more data to determine why those plays in particular were of interest to donars and since there were only 4 plays that were successful that month, it probably would not pay to run the fundraiser at that time anyway.
+- Continuing to go through the years we can see there were some other times that were successful but if we cannot find more than 5 plays in a different time of year it is probably not worth investigating any further.
+- 2014 looks like it was a popular year for several theater campaigns. Let's see if we can find some more info for that year instead. Looking at the graph, it looks like the best months for fundraising that year were May, June and Oct and averaged around 50 projects. Let's see if we can find more about the fundraisers those months.
+-  Going back to the Kickstarter page leaving the filters from above except changing the year to 2104 and adding the filter "Subcategory" = "plays". Since we already know that May and June are good fundraising month, what made October 2014 different? Sorting on goals we can quickly see that most successful campaigns in Oct. 2014 were less than 10K. this would not be a good time for Louise to start the campaign. Setting the months to "May" and "June", we can see that most campaigns were also less than 10K so 2014 may be too far back to use so granualarly.
+-  Let's try one more year that is closer to see if larger campaigns have better success more recently.  Back in 2008 after the market crash, many theaters were struggling to get people in their doors. As time went on, theater companies have made a huge push to get more people out to live performances so perhaps 2014 was at the edge of that comeback.
+-  Using 2015, we can see there are quite a few successful campaigns in May and June that year as well. Though there are more sucessful campaigns at 10K and up in 2015 than others it is still insignifigant considering the number of plays during May and June were 74 and only 6 campaigns over 10K.
+
+#### Conclusions
+Though May and June are the most successful months for a campaign, most campaigns during those months were less that 10K. This does not bode well for Louise's campaign at $12K.
+
+Without more data it is difficult to advise Louise on what efforts she can do to be up in the range of successful plays with a funding goal over 10K. For example the following information may be useful:
+- More information about each donars.  How did they donate? Do they frequent plays more than others for some reason? 
+- What type of effort was made for each campaign. For example, how many advertisements went out? What social media platforms were used and which ones brought in the most pledges?
+- Who raised the most money each year? Were they staff members? If so, what is their background in fundrasining and is this part of their job description? If not, were they volunteers? How do we find and train these volunteers to help them be more successful?
 
 ![Theater_Outcomes_vs_Launch.png](./resources/Theater_Outcomes_vs_Launch.png)
 
@@ -43,8 +64,9 @@ From the line chart below we can see the following information:
 - The least successful projects where in the range of 45,000 to 49,000. This also makes sense as the more money that is needed the harder it will be to find the backers to support it. 
 - However, plays with a goal of greater than $50,000 are shown to be more successful even though this could be a significantly higher goal to reach as it is unlimited.  If we go back to the original table that was used to create this chart we can see that there was only one play with a funding goal in the range of $45-$49K. Since that play failed the success rate would be 0, whereas, even though most plays with a goal over $50K had a lot more failures, it does have 2 that were successful which is enough to show a significant difference in the line chart.
 - Noticing this now, it seems that the pivot table may be more informative if it included the total number of projects. If I have some time at a later date, I can add this column so the previous table will not be needed in this document.
-- In the range of $35K to $44.9K there are quite a few successful projects yet in the ranges just below this level, i.e. $25K to $34.9K there was a high failure rate. There are no significant data in this part of the analyis to indicate why but the analysis by launch date may show something when I go back to anyalize that part.  [TODO: come back here and update once the analysis by Launch Date is evaluated.]
-- [TODO: Add info about 12K goal]
+- In the range of $35K to $44.9K there are quite a few successful projects yet in the ranges just below this level, i.e. $25K to $34.9K there was a high failure rate. There are no significant data in this part of the analyis to indicate why this is the case. There are some data points that may help if they were provided and those are discussed in the analyis of outcomes based on launched date section.
+- Louise has a fundraising goal of $12K.  When we look at plays that are in this range we can see from the graph below that fundraising goals in this range have a success rate of approximately 54%.  This is not bad but there are some factors that could be at work that can make this goal more or less achievable. To do this we will want to investigate other plays in this range that either succeeded or failed and what were the most likely reasons.
+- After anaylysing the data based on Launched Date, it was difficult to determine what made fundraising more or less likely to succeed. It seems as if people are more willing to give more money during the months of May and June but it is unclear why.  See the analysis for Launch date for possible information that could help in this area.
 
 ![Outcomes_vs_Goals.png](./resources/Outcomes_vs_Goals.png)
 
