@@ -10,8 +10,6 @@ This analysis will attempt to sift through thousands of previous fundraising cam
 
 ## Analysis and Challenges
 
-### Performance Analysis
-
 ### Analysis of Outcomes Based on Launch Date
 This analysis was performed by pulling data from Kickstarter sheet. Before creating the new Pivot table and Chart, a column was added to pull out the year that each fundraiser was launched. This will allow Louise to filter on both the year of the launch and the fundraising category. Since Louise is only interested in plays, she can focus on just theater fundraisers to determine what time of year would be best to launch the fundraiser for "Fever".
 
@@ -32,8 +30,6 @@ If we filter through specific years we can drill down a bit to find a few succes
 ---
 
 ### Analysis of Outcomes Based on Goals
-
-#### Performance Details
 This analysis was performed by setting up specific ranges of funding goals for the "plays" subcategory within the "theater" parent category.  To do this, a new worksheet was added showing the break down of goals in ranges of $5,000.  Anything goal less than $1,000 or greater than $50,000 were included as separate goals to include all goals at the upper and lower ranges.
 
 To get the total numbers within each range, the COUNTIFS function was used as follows:
@@ -73,35 +69,35 @@ For Deliverable 2, I ran into a couple of issues.
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-       - Though May and June are the most successful months for a campaign, most campaigns during those months were less that 10K. This does not bode well for Louise's campaign at $12K.
+   - Though May and June are the most successful months for a campaign, most campaigns during those months were less that 10K. This does not bode well for Louise's campaign at $12K.
 
-       - Though there were some years that had successful compaigns in Oct or Dec. there was not enough data to make a conclusion as to why and investigating these months was unsuccessful in revealing anything new.
+   - Though there were some years that had successful compaigns in Oct or Dec. there was not enough data to make a conclusion as to why and investigating these months was unsuccessful in revealing anything new.
 
-       - Without more data it is difficult to advise Louise on what efforts she can make to be in the range of successful plays with a funding goal over 10K. For example, the following information may be useful:
-              - More information about each donar.  How did they donate? Are they subscribers to some list? Do they frequent plays more than others for some reason? 
-              - What type of effort was made for each campaign. For example, how many advertisements went out? What social media platforms were used and which ones brought in the most pledges?
-              - Who raised the most money each year? Were they staff members? If so, what is their background in fundrasining and is this part of their job description? If not, were they volunteers? How do we find and train these volunteers to help them be more successful?
+   - Without more data it is difficult to advise Louise on what efforts she can make to be in the range of successful plays with a funding goal over 10K. For example, the following information may be useful:
+       - More information about each donar.  How did they donate? Are they subscribers to some list? Do they frequent plays more than others for some reason? 
+       - What type of effort was made for each campaign. For example, how many advertisements went out? What social media platforms were used and which ones brought in the most pledges?
+       - Who raised the most money each year? Were they staff members? If so, what is their background in fundrasining and is this part of their job description? If not, were they volunteers? How do we find and train these volunteers to help them be more successful?
 
 - What can you conclude about the Outcomes based on Goals?
 
-       - From the line chart below we can see the following information:
+   - From the line chart below we can see the following information:
 
-              - The most successful funding raising efforts were for plays that had a fundraising goal of less than $1000. This is understandable, since it is a very low amount and would need less backers to reach the goal.
-              - The least successful projects where in the range of 45,000 to 49,000. This also makes sense as the more money that is needed the harder it will be to find the backers to support it. 
-              - However, plays with a goal of greater than $50,000 are shown to be more successful even though this could be a significantly higher goal to reach as it is unlimited.  If we go back to the original table that was used to create this chart we can see that there was only one play with a funding goal in the range of $45-$49K. Since that play failed the success rate would be 0, whereas, even though most plays with a goal over $50K had a lot more failures, it does have 2 that were successful which is enough to show a significant difference in the line chart.
-              - Possibly the pivot table would be more informative if it included the total number of projects.
-              - In the range of $35K to $44.9K there are quite a few successful projects yet in the ranges just below this level, i.e. $25K to $34.9K there was a high failure rate. There are no significant data in this part of the analyis to indicate why this is the case. There are some data points that may help if they were provided and those are discussed in the analyis of outcomes based on launched date section.
-              - Louise has a fundraising goal of $12K.  When we look at plays that are in this range we can see from the graph below that fundraising goals in this range have a success rate of approximately 54%.  This is not bad but there are some factors that could be at work that can make this goal more or less achievable. To do this we will want to investigate other plays in this range that either succeeded or failed and what were the most likely reasons.
-              - After anaylysing the data based on Launched Date, it was difficult to determine what made fundraising more or less likely to succeed. It seems as if people are more willing to give more money during the months of May and June but it is unclear why.  See the analysis for Launch date for possible information that could help in this area.
+       - The most successful funding raising efforts were for plays that had a fundraising goal of less than $1000. This is understandable, since it is a very low amount and would need less backers to reach the goal.
+       - The least successful projects where in the range of 45,000 to 49,000. This also makes sense as the more money that is needed the harder it will be to find the backers to support it. 
+       - However, plays with a goal of greater than $50,000 are shown to be more successful even though this could be a significantly higher goal to reach as it is unlimited.  If we go back to the original table that was used to create this chart we can see that there was only one play with a funding goal in the range of $45-$49K. Since that play failed the success rate would be 0, whereas, even though most plays with a goal over $50K had a lot more failures, it does have 2 that were successful which is enough to show a significant difference in the line chart.
+       - Possibly the pivot table would be more informative if it included the total number of projects.
+       - In the range of $35K to $44.9K there are quite a few successful projects yet in the ranges just below this level, i.e. $25K to $34.9K there was a high failure rate. There are no significant data in this part of the analyis to indicate why this is the case. There are some data points that may help if they were provided and those are discussed in the analyis of outcomes based on launched date section.
+       - Louise has a fundraising goal of $12K.  When we look at plays that are in this range we can see from the graph below that fundraising goals in this range have a success rate of approximately 54%.  This is not bad but there are some factors that could be at work that can make this goal more or less achievable. To do this we will want to investigate other plays in this range that either succeeded or failed and what were the most likely reasons.
+       - After anaylysing the data based on Launched Date, it was difficult to determine what made fundraising more or less likely to succeed. It seems as if people are more willing to give more money during the months of May and June but it is unclear why.  See the analysis for Launch date for possible information that could help in this area.
 
 - What are some limitations of this dataset?
 
-       - I discussed most of the limitations in the conclusions above. 
-       - I believe the most useful information would be centered around who is donating, why they donate and how do they donate. 
-       - Other data about the actual fundraising efforts that were employed would be useful as well.
+   - I discussed most of the limitations in the conclusions above. 
+   - I believe the most useful information would be centered around who is donating, why they donate and how do they donate. 
+   - Other data about the actual fundraising efforts that were employed would be useful as well.
 
 - What are some other possible tables and/or graphs that we could create?
 
-       - There are probably several different pivot tables that I could add but I am not familiar enough to have time to do it for this assignment. Hopefully, I will get much better at this by the end of this bootcamp!
+   - There are probably several different pivot tables that I could add but I am not familiar enough to have time to do it for this assignment. Hopefully, I will get much better at this by the end of this bootcamp!
 
 
